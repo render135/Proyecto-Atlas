@@ -1,0 +1,387 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+:root {
+    --color-primario: #00d4aa;  /* Verde como en el diseño */
+    --color-secundario: #282c2c;
+    --color-texto: #333;
+    --color-blanco: #fff;
+    --color-boton: #182441;
+}
+
+  header{
+    background-image: url(assets/banner-bk.jpg); 
+    background-position: center;
+    background-size: cover; 
+    width: auto;
+    height: 84vh;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}  
+
+.barraSuperior{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    color: var(--color-blanco);
+}
+
+ header img{
+    width: 9%;
+} 
+
+.contenidoPrincipal{
+    max-width: 50%;
+}
+
+.Tituloprincipal{
+    font-size: 73px;
+    margin-bottom: 30px;
+    color: var(--color-blanco);
+    font-weight: bold;
+}
+
+.contenidoPrincipal p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: var(--color-blanco);
+}
+
+.botton1{
+    background-color: #00f5c9;
+    border: none;
+    padding: 12px 25px;
+    color: black;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.Seccion-proteccion{
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.titulodos{
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: var(--color-secundario);
+}
+
+.contendedor-tarjectas{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.tarjectas {
+  max-width: 21%;
+}
+.tarjectas h3 {
+  font-size: 20px;
+  color: #1a1a2e;
+  margin-bottom: 10px;
+}
+
+.Fondo-verde{
+  background: linear-gradient(170deg, #fff 59%, #01feac 50%);
+  padding: 80px 20px;
+}
+.seccion-tercera{
+  display: flex;
+  /* align-items: center;
+  justify-content: space-around; */
+  max-width: 180vh;
+  margin: auto;
+  padding: 60px 0;
+  flex-wrap: nowrap;
+}
+
+.texto{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* es para que el flex direccion no me coja todo el botton */
+    gap: 30px;
+}
+
+.texto h2{
+    font-size: 35px;
+    
+}
+
+.seccion-tercera img{
+    width: 64%;
+}
+.imagen-tercera{
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.botton2{
+  background-color: var(--color-boton);
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  margin-top: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+} 
+.seccion-cuarta{
+    display: flex;
+    max-width: 180vh;
+    margin: auto;
+}
+
+.imagen-cuarto{
+    margin-right: 9%;
+}
+
+.imagen-cuarto img{
+    width: 60vh;
+}
+
+.seccion-pricing {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+}
+
+.seccion-pricing h2 {
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  color: var(--color-texto);
+}
+
+.pricing-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.pricing-cards .card {
+  background-color: var(--color-blanco);
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  flex: 1 1 280px;
+  max-width: 300px;
+  padding: 30px 20px;
+  transition: transform 0.3s;
+}
+
+.pricing-cards .card:hover {
+  transform: translateY(-10px);
+}
+
+.pricing-cards .highlighted {
+  background-color: #182441;
+  color: var(--color-blanco);
+}
+
+.pricing-cards .card h4 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+.pricing-cards .card h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.pricing-cards .card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+.pricing-cards .card ul li {
+  margin: 10px 0;
+  font-size: 0.95rem;
+}
+
+.btn-pricing {
+  background-color: var(--color-primario);
+  color: var(--color-blanco);
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+h6{
+    font-size: 20px;
+}
+
+sup{
+    font-size: 50px;
+}
+
+.btn-pricing:hover {
+  background-color: #00bba9;
+}
+
+.contenedorLogos{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: lightgray;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.form__contact{
+    display: flex;
+    background-image: url("assets/banner-bk.jpg");
+    color:white;
+    padding: 10% 10%;
+    gap: 5%;
+}
+
+.form__information{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form__information h3{
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.form__information p,
+.form__information li{
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+    list-style: none;
+}
+
+.conctatUs{
+    font-size: 30px;
+}
+
+.parrafoConctat{
+    font-size: 20px;
+}
+
+.form__fields{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form__row{
+    display: flex;
+    gap: 20px;
+    color:#01feac;
+}
+
+.form__group{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    color: #01feac;
+}
+
+.form__group label{
+    font-size: 2.5rem;
+    margin-bottom: 6px;
+    color: var(--primary-color);
+}
+
+.form__group input,
+.form__group textarea{
+    padding: 10px;
+    border: 2px solid var(--color-primario);
+    border-radius: 6px;
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+}
+
+.form__group input::placeholder,
+.form__group textarea::placeholder{
+    color: #aaa;
+}
+
+.form__submit{
+    text-align: center;
+    color: black;
+}
+
+.form__submit button{
+    background-color:#01feac;
+    color: var(--title-color);
+    width: 100%;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form__submit button:hover{
+    background-color:aliceblue;
+}
+
+.full-width{
+    width: 100%;
+}
+
+footer {
+    background-color: #141d35;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 60px;
+    width: 100%; /* importante */
+    box-sizing: border-box; /* por si tienes padding */
+}
+
+.copy {
+    flex: 1;
+}
+
+.iconos-footer {
+    display: flex;
+    gap: 15px;
+}
+
+.redes a {
+    text-decoration: none;
+    color: #141d35;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.redes a:hover {
+    background-color: var(--color-primario);
+    color: white;
+}
